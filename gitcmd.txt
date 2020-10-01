@@ -1,13 +1,26 @@
-git remote add origion "https://github
+#add repo
+git remote add origin "https://github
 
+#add files to local rep
 git add -A
+
+#local commit
 git commit -a -m "commit to local all files:
+
+#push files to remote
 git push
 
+# pull files
 git pull
 
+#generate rsa key
+ssh-keygen -t rsa -b 4096 -C "eusvuda@gmail.com"
 
-update rsa.pub
-
+#validate connection after upload sshkey
 ssh -T git@github.com
 
+#create branch
+git branch firstbranch
+
+#checking out firstbranch (switch branch)
+git checkout firstbranch
