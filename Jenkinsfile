@@ -4,7 +4,8 @@ node {
       git 'https://github.com/vdang858/practice'
    }
    stage('Compile-Package') {
-      sh 'mvn package'
+      //sh 'mvn package'
+      echo 'mvn package'
    }
    stage('stage 2') {
       echo "def"
