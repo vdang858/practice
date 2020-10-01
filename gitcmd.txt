@@ -1,0 +1,13 @@
+git remote add origion "https://github
+
+git add -A
+git commit -a -m "commit to local all files:
+git push
+
+git pull
+
+
+update rsa.pub
+
+ssh -T git@github.com
+
