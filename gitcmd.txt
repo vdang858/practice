@@ -31,4 +31,7 @@ git checkout firstbranch
 git checkout master
 git merge firstbranch
 
+#rebase
+git rebase firstbranch
 
+# what else
